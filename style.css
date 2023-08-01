@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fffbf2;
+  color: #332620;
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin: 12px;
+}
+
+#memeForm {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px;
+  margin-bottom: 40px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+input {
+  margin-bottom: 16px;
+  padding: 2px;
+}
+
+#generateMeme {
+  width: 150px;
+  margin: 16px auto 0;
+  padding: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#memeContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 16px;
+}
+
+.memeDiv {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.memeImage {
+  width: 100%;
+  height: auto;
+}
+
+.memeText {
+  position: absolute;
+  font-family: Impact;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  pointer-events: none;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 3px 3px 3px #000;
+}
+
+.topText {
+  top: 10px;
+}
+
+.bottomText {
+  bottom: 44px;
+}
+
+.removeButton {
+  padding: 2px 4px;
+  cursor: pointer;
+}
